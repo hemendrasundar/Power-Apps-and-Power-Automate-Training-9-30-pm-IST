@@ -1,0 +1,162 @@
+
+Apps - Internal user / org users
+
+1. Canvas Apps -  
+2. Model Driven Apps-  Dataverse / Business Rules/ BPF
+
+Websites  - External /anonymous
+
+
+3.Portals / Power Pages
+  Dataverse.
+  HTML/CSS/JavaScript/ liquid Code
+  .Net
+
+Power Automate Flows
+======================
+1. Instant / Manual.
+2. Automated.
+3. Scheduled.
+4. Business Process Flows.
+
+
+----------------------DPA--------------------------
+
+5. Power Automate Desktop/ Desktop Flows (RPA) / UI Path 
+
+  Power Automate Desktop.
+  Power Pages.
+  Power BI -> Reports, Dashbords , analytics , DAX , SQl , Relations.
+
+
+
+Cotrol reference Documentation Link : 
+
+
+Colors In PowerApps:
+-------------------
+1. Ui - Color Picker  fx - Color Enum
+2. Hex Code
+3. RGBA - Red Green Blue Alpha  - fx - RGBA(0, 0, 0, 1)
+
+ R - 0-255
+ G - 0-255
+ B - 0-255
+ A - 0-100
+
+Comments in Power Apps :
+
+ // - Single Line Comment.
+ /*   */ - Multi Line comment.
+
+
+Controls/UI Elements :
+------------------------
+
+1. Label : is used to display text
+----------
+
+ Key Properties : 
+
+    Text : set text to label
+
+ Events : 
+  
+ onSelect
+
+
+ Output Properties : 
+ 
+  Label_Control_Name.Text
+
+ 2. TextInput :
+----------------
+
+ is used to capture input.
+
+ Key Properties :
+ ----------------
+  
+1. Default
+2. Format : Text / Number
+3. Hint Text 
+4. max Length 
+5. clear Button : yes/no true/false
+6. Spell check  : true/false
+7. Mode : Single Line / Multi Line / Password 
+
+Events :
+ 
+ OnSelect 
+ OnChange
+
+ Output Properties :
+-------------------
+
+ TextInput_ControlName.Text
+
+
+Button :
+------------
+
+key Properties:
+ 
+text 
+
+Event :
+
+ OnSelect
+
+DropDown :
+----------
+To select from the list of options
+
+ Key properties :
+
+  Items :
+  Value :
+
+ Default :
+
+Chevron Color, Fill
+Selection Fill, color
+
+AllowEmptySelection :
+
+ Events :
+
+  OnSelect
+  OnChange
+ 
+
+ OutPut Property:
+ 
+  DropDownName.Selected.ColumnName
+ 
+ limitations :
+ ----------------
+
+ 1. We cannot Search
+ 2. multiselect.
+ 3. The control will show a maximum of 500 items.
+
+
+      Color 
+      bg Color - Fill
+      Border color
+
+     Chevron color
+     Chevron Fill
+     Selection color 
+     Seclection fill
+
+
+      4 States
+   -------------------------
+     1. Normal State 
+
+     2. Hover State
+    
+     3. Pressed State
+    
+     4. Disabled State
